@@ -14,7 +14,7 @@ pd.set_option('display.max_columns', 110)
 import matplotlib.pyplot as plt
 import pprint
 # Create connnect 建立與mongoDB連線
-client = pymongo.MongoClient(host='192.168.158.128', port=27017)
+client = pymongo.MongoClient(host='localhost', port=27017)
 
 # assign database 選擇資料庫
 db = client.tibame
